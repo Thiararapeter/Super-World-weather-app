@@ -304,7 +304,7 @@ time_label = tk.Label(app, text="", font=("Helvetica", 14), bg="#34495e", fg="#e
 time_label.pack()
 
 # Adding a footer with contact information and version
-footer_label = tk.Label(app, text="App created by Thiarara\nContact: contact@thiarara.co.ke\n \n Version 1.5", font=("Calibri", 9), bg="#34495e", fg="#E6E6FA")
+footer_label = tk.Label(app, text="App created by Thiarara\n Email: contact@thiarara.co.ke\n \n Version 1.5", font=("Calibri", 9), bg="#34495e", fg="#E6E6FA")
 footer_label.pack(pady=10)
 
 # Start updating the time

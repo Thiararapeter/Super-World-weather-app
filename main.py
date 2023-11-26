@@ -303,8 +303,8 @@ result_text.config(yscrollcommand=scroll_bar.set)
 time_label = tk.Label(app, text="", font=("Helvetica", 14), bg="#34495e", fg="#ecf0f1")
 time_label.pack()
 
-# Adding a footer with contact information
-footer_label = tk.Label(app, text="App created by https://thiarara.co.ke\nContact: contact@thiarara.co.ke", font=("Helvetica", 10), bg="#34495e", fg="#ecf0f1")
+# Adding a footer with contact information and version
+footer_label = tk.Label(app, text="App created by Thiarara\nContact: contact@thiarara.co.ke\n \n Version 1.5", font=("Calibri", 9), bg="#34495e", fg="#E6E6FA")
 footer_label.pack(pady=10)
 
 # Start updating the time
